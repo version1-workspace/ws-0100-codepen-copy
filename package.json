@@ -1,0 +1,14 @@
+{
+  "name": "codepen-repoduce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass sass/index.sass css/style.css -w"
+  },
+  "author": "version.2017.1.0@gmail.com (https://github.com/version-1)",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
