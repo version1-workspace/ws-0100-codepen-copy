@@ -3,12 +3,13 @@
 <head>
     <title>Code Pen Copy</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic" rel="stylesheet">
 </head>
 <body>
     <div class="l-flex l-container">
         <div class="l-sidebar sidebar">
-            <h1 class="codepen-logo">CODE PEN</h1>
+            <h1 class="codepen-logo">C<i class="fa fa-cube"></i>DE PEN</h1>
             <div class="get-start">
                 <p class="get-start-text">TRY OUR ONLINE EDITOR</p>
                 <a class="button button-logo" href="">
@@ -57,32 +58,110 @@
         </div>
         <main class="l-main">
             <header class="l-header">
-                <div class="header-serach-form">
-                    <input type="text" placeholder="Search CodePen..." />
+                <div class="l-flex search-form">
+                    <i class="fa fa-search"></i>
+                    <input  class="search-form-input"　type="text" placeholder="Search CodePen..." />
                 </div>
-                <div class="header-buttons">
-                    <a href="button button-primary">
+                <div class="l-flex header-buttons">
+                    <a class="button button-primary">
                         Sign Up
                     </a>
-                    <a href="button button-secondary">
+                    <a class="button button-secondary">
                         Log In
                     </a>
                 </div>
             </header>
             <div class="l-content">
                 <section class="section">
-                    <div class="l-flex main-copy">
-                        <div classs="main-copy-logo">
-                            <i/>
-                        </div>
-                        <h1>The best place to build, test and discover front-end code.</h1>
-                        <div class="main-copy-body">
-                            <p>
-                                CodePen is a <span class="text-bold">social development environment</span> for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
-                            </p>
-                        </div>
-                        <div class="main-copy-footer">
-                            <a class="button button-primary">Sign Up for Free</a>
+                    <div class="hero">
+                        <div class="l-flex main-copy-body">
+                            <div class="hero-body-description">
+                                <div class="hero-body-description-content">
+                                    <div class="hero-logo">
+                                        <i class="fa fa-cube"></i>
+                                    </div>
+                                    <h1 class="hero-body-description-title">The best place to build, test, and discover front-end code.</h1>
+
+                                    <p class="hero-body-description-text">
+                                        CodePen is a <span class="text-bold">social development environment</span> for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
+                                    </p>
+                                </div>
+                                <div class="hero-footer">
+                                    <a class="button button-primary">Sign Up for Free</a>
+                                </div>
+                            </div>
+                            <div class="hero-body-image">
+                                <div class="hero-body-image-card">
+                                    <div class="code-card code-card-html">
+                                        <div class="l-flex l-align-center code-card-header">
+                                            <div class="l-flex l-align-center code-card-title">
+                                                <i class="fa fa-cog"></i>
+                                                <h4 class="code-card-title-text">
+                                                    HTML
+                                                </h4>
+                                            </div>
+                                            <i class="fa fa-chevron-down"></i>
+                                        </div>
+                                        <div class="code-card-body">
+                                            <p>
+                                                <span class="hilight-orange">&lt;div</span> <span class="hilight-beige">class</span>=<span class="hilight-green">"rect"</span><span class="hilight-orange">&gt;&lt;/div&gt;</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="code-card code-card-scss">
+                                        <div class="l-flex l-align-center code-card-header">
+                                            <div class="l-flex l-align-center code-card-title">
+                                                <i class="fa fa-cog"></i>
+                                                <h4 class="code-card-title-text">
+                                                    SCSS
+                                                </h4>
+                                            </div>
+                                            <i class="fa fa-chevron-down"></i>
+                                        </div>
+                                        <div class="code-card-body">
+                                            <p><span class="hilight-beige">.rect</span> {</p>
+                                            <p class="l-margin-left-2rem">
+                                                <span class="hilight-purple">background</span>: <span class="hilight-beige">linear-gradient</span>(
+                                            </p>
+                                            <p class="l-margin-left-4rem">
+                                                <span class="hilight-orange">-119deg</span>,
+                                            </p>
+                                            <p class="l-margin-left-4rem">
+                                                <span class="hilight-beige">$gray</span> <span class="hilight-orange">0%</span>,
+                                            </p>
+                                            <p class="l-margin-left-4rem">
+                                                <span class="hilight-beige">$dark-gray</span><span class="hilight-orange">100%</span>); <span class="cursor">|</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="code-card code-card-js">
+                                        <div class="l-flex l-align-center code-card-header">
+                                            <div class="l-flex l-align-center code-card-title">
+                                                <i class="fa fa-cog"></i>
+                                                <h4 class="code-card-title-text">
+                                                    JS
+                                                </h4>
+                                            </div>
+                                            <i class="fa fa-chevron-down"></i>
+                                        </div>
+                                        <div class="code-card-body">
+                                            <p>
+                                               <span class="hilight-beige">var</span>&nbsp;<span class="hilight-blue">colors</span>&nbsp;=
+                                            </p>
+                                            <p>
+                                               [<span class="hilight-green">"#74B087"</span>,<span class="hilight-green">"#DE7300"</span>,<span class="hilight-green">"#74B087"</span>];
+                                            </p>
+                                            <p>
+                                                &nbsp;
+                                            </p>
+                                            <p>
+                                                <span class="hilight-beige">function</span>&nbsp;<span class="hilight-blue">animate</span>()&nbsp;{};
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -127,7 +206,7 @@
                     </div>
                 </section>
                 <section>
-                 <div class="product-item-list">
+                   <div class="product-item-list">
                     <div class="product-item-list-body">
                         <div class="flex flex-wrap">
                             <div class="product-item">
