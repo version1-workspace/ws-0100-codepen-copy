@@ -12,12 +12,18 @@
 
 ## About SMACSS SMACSSについて
 
+リンク参照:
+https://ver-1-0.net/2017/12/10/learn-smacss
+
+公式ドキュメント:
+
 English: http://smacss.com/ -> click "Download the Book!"
+
 日本語: http://smacss.com/files/smacss-ja.pdf
 
 ## 課題の進め方
 
-1. 上記のドキュメントを呼んでSMACSSについて理解する
+1. 上記のドキュメントを読んでSMACSSについて理解する
 2. このリポジトリをフォーク
   リポジトリ のフォークはGihubの画面右上のForkボタンから自分のアカウントにリポジトリ をコピーすることができます。
 
