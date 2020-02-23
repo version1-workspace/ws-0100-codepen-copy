@@ -64,6 +64,8 @@ https://help.github.com/ja/github/working-with-github-pages/configuring-a-publis
 雛形のhtmlでFontAwesomeというアイコンを表示できるライブラリを読み込んでいるので実装の時に使うアイコンはすべて、
 こちらを使用してください。使用しているアイコンの名前や表示の仕方はデモサイト上でブラウザの検証ツールを使って確認してください。
 
+参考記事: https://saruwakakun.com/html-css/basic/font-awesome
+
 ### Google Fontについて
 
 無料で使えるフォントファイルライブラリのGoogleFontもデフォルトで読み込む様な設定をしています。
