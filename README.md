@@ -21,6 +21,15 @@ English: http://smacss.com/ -> click "Download the Book!"
 
 日本語: http://smacss.com/files/smacss-ja.pdf
 
+## 課題で身に着けること
+
+- 変更に強いCSS設計（SMACCSS)
+- CSSのモジュール化
+- レスポンシブデザイン
+- sass記法
+- sassの変数定義、mixinの使い方
+- セマンティックな命名
+
 ## 課題の進め方
 
 ### 1. 上記のドキュメントを読んでSMACSSについて理解する
