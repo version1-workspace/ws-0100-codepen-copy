@@ -1,0 +1,100 @@
+.product-item-list
+    display: flex
+    flex-wrap: wrap
+    background-image: url("file:///Users/hisatsune/Downloads/code-pen-line-2.svg")
+    background-repeat: no-repeat
+    background-size: 400px
+    background-position: -100px -10px
+    @include sp
+        background-image: none
+
+    div
+        width: 30%
+        margin-top: 100px
+        
+
+    .product-text
+        width: 370px
+        font-size: 20px
+        padding-left: 10px
+        @include sp
+            font-size: 30px
+            margin-top: 0
+            padding-left: 30px
+        
+
+        p
+            font-size: 15px
+            opacity: 0.6
+            padding-left: 30px
+        
+        a
+            color: #0ebeff
+            text-decoration: none
+            font-size: 17px
+            padding-left: 30px
+
+    a
+        display: block
+        text-decoration: none
+        width: 310px
+        
+    img
+        width: 200px
+        height: 200px
+        margin-left: 55px
+        
+
+    .product-item-top
+        width: 310px
+        height: 280px
+        background-color: #2c303a
+        margin-left: 13px
+        margin-right: 25px
+        border-radius: 10px
+        &:hover
+            cursor: pointer;
+            transform: scale(1.1, 1.1);
+            opacity: 0.6
+            transition: all 0.3s
+        @include sp
+            margin-top: 50px
+            margin-left: 55px
+            margin-right: 5px
+
+    .product-item-bottom
+        width: 310px
+        height: 280px
+        background-color: #2c303a
+        margin-top: 50px
+        margin-left: 35px
+        margin-right: 3px
+        border-radius: 10px
+        &:hover
+            cursor: pointer;
+            transform: scale(1.1, 1.1);
+            opacity: 0.6
+            transition: all 0.3s
+        @include sp
+            margin-left: 55px
+
+    h3
+        margin: 0
+        margin-left: 30px
+        
+    h4
+        opacity: 0.6
+        margin-top: 0
+        margin-left: 30px
+
+.next
+    display: block
+    text-decoration: none
+    text-align: center
+    margin: 50px 46%
+    padding: 5px
+    border: solid white
+    &:hover
+        opacity: 0.6
+    @include sp
+        transform: scale(1.5)

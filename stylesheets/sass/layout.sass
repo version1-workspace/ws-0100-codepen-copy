@@ -5,3 +5,8 @@
 .l-flex-wrap
     flex-wrap: wrap
 
+$sp: 768px;  // スマホ
+
+@mixin sp 
+  @media (max-width: ($sp)) 
+    @content
