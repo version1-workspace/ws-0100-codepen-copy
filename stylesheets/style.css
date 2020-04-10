@@ -7,11 +7,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background: #131417;
-  background-image: url("file:///Users/hisatsune/Downloads/code-pen-line.svg");
-  background-repeat: no-repeat;
-  background-size: 600px;
-  background-position: 780px 510px; }
+  background: #131417; }
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -28,11 +24,7 @@ body {
 
 .product-item-list {
   display: flex;
-  flex-wrap: wrap;
-  background-image: url("../image/codepen-line-2.svg");
-  background-repeat: no-repeat;
-  background-size: 400px;
-  background-position: -100px -10px; }
+  flex-wrap: wrap; }
   @media (max-width: 768px) {
     .product-item-list {
       background-image: none; } }
