@@ -13,3 +13,30 @@ body
   box-sizing: border-box
   color:  #FFFFFF
 
+ul
+  padding-left: 0
+  margin-left: 0
+  list-style-type: none
+
+a
+  text-decoration: none
+  &:hover
+    cursor: pointer
+
+//Small devices
+@mixin sm
+  @media (max-width: #{$screen-sm-min})
+    @content
+
+//Medium devices
+@mixin md
+  @media (max-width: #{$screen-md-min})
+    @content
+
+//Large devices
+  @media (max-width: #{$screen-lg-min})
+    @content
+
+//Extra large devices
+  @media (max-width: #{$screen-xl-mix})
+    @content
