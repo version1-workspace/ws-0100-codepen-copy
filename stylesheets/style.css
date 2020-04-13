@@ -91,10 +91,12 @@ a {
   margin: 50px 45%;
   padding: 5px;
   border: solid white; }
+  @media (max-width: 576px) {
+    .next-button {
+      margin: 50px 38%; } }
 
 .product-item-list {
-  margin-top: 100px;
-  margin-left: 18px; }
+  margin-top: 100px; }
 
 .product-item {
   display: inline-block;
@@ -103,16 +105,16 @@ a {
   width: 310px;
   height: 280px;
   border-radius: 10px;
-  margin: 17px 17px; }
+  margin-top: 30px;
+  margin-left: 35px; }
   .product-item:hover {
     opacity: 0.5;
     transform: scale(1.1);
     transition: 0.3s; }
   @media (max-width: 576px) {
     .product-item {
-      transform: scale(1.2);
-      margin-top: 100px;
-      margin-left: 70px; } }
+      display: flex;
+      margin: 50px auto; } }
 
 .product-text {
   background: #131417; }
@@ -160,16 +162,36 @@ a {
   opacity: 0.5; }
 
 .html-code-card {
-  top: -5%;
-  left: 30%; }
+  top: -20px;
+  left: 150px; }
+  @media (max-width: 1200px) {
+    .html-code-card {
+      left: 50px; } }
+  @media (max-width: 576px) {
+    .html-code-card {
+      transform: scale(0.9);
+      left: 0; } }
 
 .scss-code-card {
-  top: -3%;
-  left: 43%; }
+  top: -10px;
+  left: 220px; }
+  @media (max-width: 1200px) {
+    .scss-code-card {
+      left: 100px; } }
+  @media (max-width: 576px) {
+    .scss-code-card {
+      transform: scale(0.9);
+      left: 30px; } }
 
 .js-code-card {
-  top: -1%;
-  left: 30%; }
+  left: 150px; }
+  @media (max-width: 1200px) {
+    .js-code-card {
+      left: 50px; } }
+  @media (max-width: 576px) {
+    .js-code-card {
+      transform: scale(0.9);
+      left: 0; } }
 
 .html-code, .scss-code, .js-code {
   margin-top: 5px;
@@ -224,9 +246,7 @@ a {
   border-radius: 10px; }
   @media (max-width: 576px) {
     .Build-Test, .Learn-Discover, .Share-Your-Work {
-      margin-top: 140px;
-      margin-left: 95px;
-      transform: scale(1.2); } }
+      margin: 30px auto; } }
   .Build-Test i, .Learn-Discover i, .Share-Your-Work i {
     font-size: 3em;
     background-color: #131417;
@@ -298,7 +318,8 @@ footer {
   padding-left: 60px; }
   @media (max-width: 576px) {
     .hero-left {
-      width: 100%; } }
+      width: 100%;
+      padding: 0 15px; } }
   .hero-left i {
     font-size: 35px; }
 
@@ -323,6 +344,7 @@ footer {
       width: 90%; } }
 
 .search-form {
+  display: flex;
   background: #252830;
   width: 100%;
   padding: 8px;
@@ -334,7 +356,7 @@ footer {
 .search-form-input {
   background: #252830;
   margin-left: 15px;
-  width: 95%;
+  width: 100%;
   font-size: 20px;
   font-weight: bold;
   border: none; }

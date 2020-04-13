@@ -23,6 +23,11 @@ a
   &:hover
     cursor: pointer
 
+//Extra small devices
+@mixin xs
+  @media (max-width: #{$screen-xs-min})
+    @content
+
 //Small devices
 @mixin sm
   @media (max-width: #{$screen-sm-min})
@@ -34,9 +39,11 @@ a
     @content
 
 //Large devices
+@mixin lg
   @media (max-width: #{$screen-lg-min})
     @content
 
 //Extra large devices
-  @media (max-width: #{$screen-xl-mix})
+@mixin xl
+  @media (max-width: #{$screen-xl-min})
     @content
