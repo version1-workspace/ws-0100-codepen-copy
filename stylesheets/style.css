@@ -295,7 +295,8 @@ footer {
 
 .footer-left {
   padding: 30px;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  line-height: 0; }
   .footer-left li {
     color: #aaaebc;
     margin-left: 10px; }
