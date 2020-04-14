@@ -5,10 +5,14 @@
 .hero-left
     width: 47%
     margin-top: 60px
-    padding-left: 60px
-    @include sm
+    padding-left: 5%
+    @include xl
+        padding-left: 10%
+    @include lg
         width: 100%
-        padding: 0 15px
+        padding: 0 70px
+    @include sm
+        padding: 0 40px
     
     i
         font-size: 35px
@@ -25,9 +29,11 @@
 
 .hero-right
     background: linear-gradient(109.61deg,#4c4f5a 4.26%,#202125 84.84%)
-    width: 46%
+    width: 490px
     height: 400px
     margin: 60px auto
     border-radius: 5px
+    @include md
+        margin-left: 35px
     @include sm
         width: 90%

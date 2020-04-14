@@ -45,5 +45,9 @@ a
 
 //Extra large devices
 @mixin xl
-  @media (max-width: #{$screen-xl-min})
+  @media (min-width: #{$screen-xl-min})
+    @content
+
+@mixin xxl
+  @media (min-width: #{$screen-xxl-min})
     @content

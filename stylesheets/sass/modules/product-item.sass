@@ -1,8 +1,14 @@
 .product-item-list
     margin-top: 100px
+    justify-content: center
+    @include xl
+        margin-left: 10%
+        margin-right: 10%
+    @include xxl
+        margin-left: 18%
+        margin-right: 18%
 
 .product-item
-    display: inline-block
     flex-wrap: wrap
     background: $card-gray
     width: 310px
@@ -46,3 +52,4 @@
     color: $gray
     margin-left: 20px
     margin-top: 0
+    margin-bottom: 0

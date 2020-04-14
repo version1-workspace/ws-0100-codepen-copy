@@ -1,27 +1,30 @@
 footer
-    background-color: black
-    @include sm
-        margin-top: 80px
-        font-size: 20px
+    background-color: $black
+    justify-content: space-between
+    
 
 .footer-left
-    margin-left: 35px
-    margin-bottom: 30px
-    @include sm
-        margin-left: 50px
+    padding: 30px
+    padding-bottom: 0
+    
+    li
+        color: $gray
+        margin-left: 10px
+        
 
 .footer-left-text
-    color: $gray
-    word-spacing: 10px
-    margin-left: 20px
+    margin: 0
+    
 
 .footer-right
-    margin-left: 430px
     text-align: right
+    margin-top: 50px
+    margin-left: 30px
+    margin-right: 35px
+    margin-bottom: 50px
     @include sm
         margin-top: 0
-        margin-left: 50px
-        margin-bottom: 50px
+        margin-left: 30px
         text-align: left
 
 .footer-right-text
