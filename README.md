@@ -5,7 +5,7 @@
 
   This is for study html, css(sass), smacss and responsive coding
 
-  demosite url: https://version-1.github.io/codepen-copy/
+  demosite url: https://version-1.github.io/ws-0100-codepen-copy/
 
   HTML, CSS(SASS), SMACSSとレスポンシブコーディングを勉強するためのリポジトリです。
   上記デモサイトをみながらなるべく同じサイトができるようにコーディングをしてもらいます。
