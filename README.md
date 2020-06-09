@@ -1,25 +1,13 @@
 
 # codepen-copy
 
-## About this repositry このレポジトリについて
 
-  This is for study html, css(sass), smacss and responsive coding
+デモ: https://version-1.github.io/ws-0100-codepen-copy/
 
-  demosite url: https://version-1.github.io/ws-0100-codepen-copy/
+HTML, CSS(SASS), SMACSSとレスポンシブコーディングを勉強するためのリポジトリです。
+上記デモサイトをみながらなるべく同じサイトができるようにコーディングをしてもらいます。
 
-  HTML, CSS(SASS), SMACSSとレスポンシブコーディングを勉強するためのリポジトリです。
-  上記デモサイトをみながらなるべく同じサイトができるようにコーディングをしてもらいます。
 
-## About SMACSS SMACSSについて
-
-リンク参照:
-https://ver-1-0.net/2017/12/10/learn-smacss
-
-公式ドキュメント:
-
-English: http://smacss.com/ -> click "Download the Book!"
-
-日本語: http://smacss.com/files/smacss-ja.pdf
 
 ## 課題で身に着けること
 
@@ -32,9 +20,40 @@ English: http://smacss.com/ -> click "Download the Book!"
 
 ## 課題の進め方
 
-### 1. 上記のドキュメントを読んでSMACSSについて理解する
+### 1. ドキュメント/記事を読んで必要な知識を理解する
+
+#### SMACSSについて
+
+リンク参照:
+- [CSSスタイルガイドのSMACSSを勉強してみたまとめ](https://ver-1-0.net/2017/12/10/learn-smacss)
+- [脱ビギナーのためのCSS入門](https://speakerdeck.com/jjoo/tuo-biginafalsetamefalsecssru-men)
+
+公式ドキュメント:
+
+English: http://smacss.com/ -> click "Download the Book!"
+
+日本語: http://smacss.com/files/smacss-ja.pdf
+
+#### レスポンシブデザインについて
+
+- [【図解】レスポンシブデザインとは？定義、特徴、メリットとデメリットを解説](https://www.yamatofinancial.jp/learning/know-how/what-is-responsive-web-design.html)
+- [レスポンシブデザインに必要不可欠なブレイクポイントとメディアクエリとは？](https://www.studio-umi.jp/blog/185/610)
+
+#### Sassについて
+
+- [sass公式](https://sass-lang.com/)
+- [SASS](https://www.webdesignleaves.com/pr/css/css_basic_08.html)
+- [【node-sass】 導入方法 - Qiita](https://qiita.com/Accio/items/2d0d0c3adc98e254571f)
+
+node-sassはすでに導入済みですがコンパイルの仕組みなどを理解するために貼ってあります。
+
+#### Npmについて
+
+- [便利なパッケージ管理ツール！npmとは【初心者向け】](https://techacademy.jp/magazine/16105)
+
 ### 2. このリポジトリをフォーク
-  リポジトリ のフォークはGihubの画面右上のForkボタンから自分のアカウントにリポジトリ をコピーすることができます。
+
+リポジトリ のフォークはGihubの画面右上のForkボタンから自分のアカウントにリポジトリ をコピーすることができます。
 
 ### 3. フォークしたリポジトリ をクローン
 
