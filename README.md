@@ -61,7 +61,7 @@ node-sassはすでに導入済みですがコンパイルの仕組みなどを�
 
 ### 4. クローンしたファイルの中身を確認して課題を開始
 ```
-cd codepen-copy
+cd ws-0100-codepen-copy
 npm install
 npm run compile // sassの変更を検知してコンパイルするnodeサーバを起動
 ```
