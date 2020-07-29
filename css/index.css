@@ -1,0 +1,157 @@
+html {
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #131417;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFF;
+}
+
+.l-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.l-align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.l-flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.l-sidebar {
+  min-width: 188px;
+}
+
+.l-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.badge {
+  background: #ffdd40;
+  border-radius: 4px;
+  margin-left: 4px;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 4px;
+}
+
+.codepen-logo {
+  text-align: center;
+}
+
+.button-logo {
+  margin: 0 16px;
+  border: 3px solid transparent;
+  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  width: 154px;
+  padding: 0;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-logo-text {
+  display: block;
+  background: black;
+  padding: 8px;
+  width: 100%;
+}
+
+.serch-form {
+  padding: 8px;
+  margin: 8px;
+  background: #252830;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.serch-form .serch-form-input {
+  margin-left: 16px;
+  width: 100%;
+  background: #252830;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #1F1F26;
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none;
+}
+
+.get-start {
+  text-align: center;
+}
+
+.sidebar-menu {
+  display: block;
+  padding-left: 16px;
+}
+
+.sidebar-menu-sub-list {
+  margin-bottom: 16px;
+}
+
+.sidebar-menu-title {
+  font-size: .8rem;
+  margin-bottom: .2rem;
+}
+
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none;
+}
+
+.text-warning {
+  color: #ffdd40;
+}
+
+.text-primary {
+  color: #47cf73;
+}
+
+.text-accent {
+  color: #0ebeff;
+}
+
+.get-start-text, .text-weak {
+  color: #b7bbc8;
+}
+
+.get-start-text {
+  margin: .2rem;
+  font-size: .8rem;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

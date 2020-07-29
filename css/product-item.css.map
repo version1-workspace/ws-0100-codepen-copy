@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../stylesheets/sass/modules/product-item.sass"
+    ],
+    "names": [],
+    "file": "product-item.css"
+}

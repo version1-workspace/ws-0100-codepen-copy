@@ -1,0 +1,32 @@
+.sidebar {
+  height: 100vh;
+  background-color: #1F1F26;
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none;
+}
+
+.get-start {
+  text-align: center;
+}
+
+.sidebar-menu {
+  display: block;
+  padding-left: 16px;
+}
+
+.sidebar-menu-sub-list {
+  margin-bottom: 16px;
+}
+
+.sidebar-menu-title {
+  font-size: .8rem;
+  margin-bottom: .2rem;
+}
+
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none;
+}
+/*# sourceMappingURL=sidebar-menu.css.map */
