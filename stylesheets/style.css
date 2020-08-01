@@ -23,19 +23,6 @@ a {
   a:hover {
     cursor: pointer; }
 
-html {
-  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
-  line-height: 1.5;
-  font-size: 15px;
-  font-weight: 400; }
-
-body {
-  background: #131417; }
-
-*, *:before, *:after {
-  box-sizing: border-box;
-  color: #FFFFFF; }
-
 .l-flex {
   display: flex; }
 
@@ -129,6 +116,7 @@ body {
   margin: 16px 0; }
 
 .product-item {
+  background: #2c303a;
   margin: 2rem 1rem;
   width: 360px; }
 
