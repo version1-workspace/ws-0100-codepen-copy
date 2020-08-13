@@ -34,6 +34,10 @@ English: http://smacss.com/ -> click "Download the Book!"
 
 日本語: http://smacss.com/files/smacss-ja.pdf
 
+#### フレックスボックス
+
+- [もう迷わない！CSS Flexboxの使い方を徹底解説](https://webdesign-trends.net/entry/8148)
+
 #### レスポンシブデザインについて
 
 - [【図解】レスポンシブデザインとは？定義、特徴、メリットとデメリットを解説](https://www.yamatofinancial.jp/learning/know-how/what-is-responsive-web-design.html)
@@ -93,6 +97,11 @@ masterへの変更が終わったら下記手順でサイトをgithub ページ�
 https://help.github.com/ja/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 ## 注意点
+
+### VSCodeのプラグインについて
+
+この課題ではVSCodeのプラグインでのSassのコンパイルは必要ありません。
+Live Sass Compilerなどを入れている方はプラグインの機能をOFFにして課題に取り組むようお願いします。
 
 ### FontAwesomeについて
 
