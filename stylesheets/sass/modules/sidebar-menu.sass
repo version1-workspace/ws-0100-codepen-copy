@@ -1,18 +1,20 @@
 .sidebar 
-    background: #1F1F26
-.get-start-text 
-    margin: .2em
-    font-size: .8em
-    text-align: center
-    color: #b7bbc8
-.sidebar-menu-sub-list 
-    margin-bottom: 16px
-.text-warning 
-    color: #ffdd40
+  background: #1F1F26 
+  @media (max-width: 576px) 
+    .sidebar 
+      display: none  
+
+.sidebar-menu a 
+  display: block
+  padding-left: 16px 
+
+.sidebar-menu a:hover 
+  background: black 
+
 .sidebar-menu-title 
-    font-size: .8rem
-    margin-bottom: .2rem
-    margin-left: 16px
-.sidebar-menu a
-    display: block
-    padding-left: 16px
+  font-size: .8rem
+  margin-bottom: .2rem
+  margin-left: 16px 
+
+.sidebar-menu-sub-list 
+  margin-bottom: 16px 
