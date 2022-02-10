@@ -9,6 +9,6 @@
   "author": "version.2017.1.0@gmail.com (https://github.com/version-1)",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
