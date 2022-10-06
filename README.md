@@ -8,7 +8,6 @@ HTML, CSS(SASS), SMACSSとレスポンシブコーディングを勉強するた
 上記デモサイトをみながらなるべく同じサイトができるようにコーディングをしてもらいます。
 
 
-
 ## 課題で身に着けること
 
 - 変更に強いCSS設計（SMACCSS)
@@ -47,9 +46,7 @@ English: http://smacss.com/ -> click "Download the Book!"
 
 - [sass公式](https://sass-lang.com/)
 - [SASS](https://www.webdesignleaves.com/pr/css/css_basic_08.html)
-- [【node-sass】 導入方法 - Qiita](https://qiita.com/Accio/items/2d0d0c3adc98e254571f)
-
-node-sassはすでに導入済みですがコンパイルの仕組みなどを理解するために貼ってあります。
+- [Dart Sass](https://sass-lang.com/dart-sass)
 
 #### Npmについて
 
@@ -71,6 +68,8 @@ cd ws-0100-codepen-copy
 npm install
 npm run compile // sassの変更を検知してコンパイルするnodeサーバを起動
 ```
+
+※ node のバージョンは 16 以上であることを推奨しています。
 
 nodeサーバが起動している間は、sassの変更が自動で反映されるようになっています。
 また使用するHTMLファイルはindex.htmlだけでその他必要なsassファイルはすでに配置済みです。
