@@ -1,10 +1,12 @@
+@use '../variable' as v
+
 .card
     padding: 2rem
     width: 360px
     border-radius: 6px
-    background: $card-gray
+    background: v.$card-gray
 .card-icon
-    background: $black
+    background: v.$black
     position: relative
     left: 16px
     top: 32px
@@ -17,6 +19,6 @@
         position: relative
         top: 8px
 .card-description
-    color: $lightgray
+    color: v.$lightgray
 .card-footer
     margin: 16px 0

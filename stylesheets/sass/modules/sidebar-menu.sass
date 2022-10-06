@@ -1,13 +1,16 @@
+@use '../variable' as v
+@use '../mixin' as m
+
 .sidebar
-    background: $weak-black
-    @include sm
+    background: v.$weak-black
+    @include m.sm
         display: none
 .sidebar-menu
     a
         display: block
         padding-left: 16px
     a:hover
-        background: $black
+        background: v.$black
 .sidebar-menu-title
      font-size: .8rem
      margin-bottom: .2rem
@@ -17,10 +20,10 @@
 
 .sidebar-menu-sub-list
     margin-bottom: 16px
-    
+
 
 .get-start-text
     margin: .2em
     font-size: .8em
     text-align: center
-    color: $lightgray
+    color: v.$lightgray
