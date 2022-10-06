@@ -1,6 +1,8 @@
+@use '../variable' as v
+
 .button
     display: inline-block
-    border: 3px solid $gray
+    border: 3px solid v.$gray
     border-radius: 4px
     padding: 8px 16px
     text-align: center
@@ -23,9 +25,9 @@
 
 .button-primary
     border: 0
-    background: $primary-color
-    color: $black
+    background: v.$primary-color
+    color: v.$black
 
 .button-secondary
     border: 0
-    background: $secondary-color
+    background: v.$secondary-color
