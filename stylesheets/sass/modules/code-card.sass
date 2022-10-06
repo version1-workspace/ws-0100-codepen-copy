@@ -1,3 +1,6 @@
+@use '../variable' as v
+@use '../mixin' as m
+
 .code-card
     margin-bottom: 8px
     background: #1d1e22
@@ -9,26 +12,26 @@
     position: relative
     left: 160px
     bottom: 20px
-    @include sm
+    @include m.sm
         left: 120px
 .code-card-scss
     position: relative
     left: 220px
     bottom: 20px
-    @include sm
+    @include m.sm
         left: 160px
 .code-card-js
     position: relative
     left: 160px
     bottom: 20px
-    @include sm
+    @include m.sm
         left: 120px
 
 .code-card-header
     padding: 4px 8px
     justify-content: space-between
     .fa:before
-      color: $lightgray
+      color: v.$lightgray
 .code-card-body
     padding: 8px
     padding-top: 0
@@ -52,8 +55,8 @@
 
 .cursor
     animation: blink 1s infinite
-@keyframes blink 
-    0% 
+@keyframes blink
+    0%
         opacity: 0
     50%
         opacity: 0
