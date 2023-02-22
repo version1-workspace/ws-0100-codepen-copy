@@ -95,7 +95,7 @@ nodeサーバが起動している間は、sassの変更が自動で反映され
 作業が終わったら変更をコミット&pushしてリモートリポジトリ に変更を反映させます。
 masterへの変更が終わったら下記手順でサイトをgithub ページ上に公開してください。
 
-https://help.github.com/ja/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+https://docs.github.com/ja/pages/getting-started-with-github-pages/creating-a-github-pages-site
 
 ## 注意点
 
