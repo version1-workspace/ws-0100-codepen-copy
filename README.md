@@ -39,7 +39,8 @@ English: http://smacss.com/ -> click "Download the Book!"
 
 #### レスポンシブデザインについて
 
-- [【図解】レスポンシブデザインとは？定義、特徴、メリットとデメリットを解説](https://www.yamatofinancial.jp/learning/know-how/what-is-responsive-web-design.html)
+- [レスポンシブデザインとは
+実装のメリット・デメリット、作り方について解説]([https://www.yamatofinancial.jp/learning/know-how/what-is-responsive-web-design.html](https://gmotech.jp/semlabo/seo/blog/responsive_design/))
 - [レスポンシブデザインに必要不可欠なブレイクポイントとメディアクエリとは？](https://www.studio-umi.jp/blog/185/610)
 
 #### Sassについて
