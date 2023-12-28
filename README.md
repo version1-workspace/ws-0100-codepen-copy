@@ -40,7 +40,7 @@ English: http://smacss.com/ -> click "Download the Book!"
 #### レスポンシブデザインについて
 
 - [レスポンシブデザインとは
-実装のメリット・デメリット、作り方について解説]([https://www.yamatofinancial.jp/learning/know-how/what-is-responsive-web-design.html](https://gmotech.jp/semlabo/seo/blog/responsive_design/))
+実装のメリット・デメリット、作り方について解説](https://gmotech.jp/semlabo/seo/blog/responsive_design/)
 - [レスポンシブデザインに必要不可欠なブレイクポイントとメディアクエリとは？](https://www.studio-umi.jp/blog/185/610)
 
 #### Sassについて
