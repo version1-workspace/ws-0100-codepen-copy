@@ -1,0 +1,70 @@
+html {
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #131417;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+li {
+  list-style: none;
+}
+
+.l-flex {
+  display: flex;
+}
+
+.l-align-center {
+  align-items: center;
+}
+
+.l-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  background: #2a293e;
+}
+
+.sidebar__badge {
+  font-size: 10px;
+}
+
+.CodePen__badge {
+  font-size: 10px;
+  color: black;
+  background: yellow;
+  border: solid 1px yellow;
+  border-radius: 3px;
+}
+
+.sidebar__munu__text {
+  margin: 0 auto 0 0;
+}
+
+.sidebar__list--top {
+  font-size: 15px;
+  color: yellow;
+}
+
+.sidebar__list--mid {
+  font-size: 15px;
+  color: #6ae5b6;
+}
+
+.sidebar__list--bottom {
+  font-size: 15px;
+  color: #6ac4e5;
+}
+
+/*# sourceMappingURL=style.css.map */
