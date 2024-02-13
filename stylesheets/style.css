@@ -18,6 +18,8 @@ body {
 
 li {
   list-style: none;
+  font-size: 15px;
+  text-align: left;
 }
 
 .l-flex {
@@ -32,16 +34,84 @@ li {
   flex-wrap: wrap;
 }
 
-.sidebar {
-  background: #2a293e;
+.l-main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header__search {
+  background: #252830;
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+  float: left;
+  font-weight: bold;
+}
+.header__search .header__logo {
+  font-size: 20px;
+  margin-right: 10px;
+  float: left;
+}
+.header__search .header__SeacrhCodePen {
+  font-size: 20px;
+  font-weight: bold;
+  color: #444857;
+  float: left;
+}
+
+.header__SignUp {
+  float: left;
+  margin: 10px 5px;
+  padding: 10px 30px;
+  color: black;
+  background: #47cf73;
+  border: solid 1px #47cf37;
+  border-radius: 3px;
+}
+
+.header__LogIn {
+  float: left;
+  margin: 10px;
+  padding: 10px 30px;
+  background: #444857;
+  border: solid 1px #444857;
+  border-radius: 3px;
 }
 
 .sidebar__badge {
+  padding-left: 20px;
+  padding-bottom: 0px;
+  margin: 0;
   font-size: 10px;
 }
 
+.sidebar__logo {
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.cube__logo {
+  color: white;
+}
+
+.sidebar__button {
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border: solid 3px;
+  background: black;
+  border-image: linear-gradient(to right, #49ED49, #e1fd0b, #fd0be1, #0bc0fd, #49ED49) 1;
+}
+
+.sidebar {
+  background: #2a293e;
+  font-size: 20px;
+}
+
 .CodePen__badge {
-  font-size: 10px;
+  font-size: 15px;
   color: black;
   background: yellow;
   border: solid 1px yellow;
@@ -53,17 +123,17 @@ li {
 }
 
 .sidebar__list--top {
-  font-size: 15px;
+  font-size: 20px;
   color: yellow;
 }
 
 .sidebar__list--mid {
-  font-size: 15px;
+  font-size: 20px;
   color: #6ae5b6;
 }
 
 .sidebar__list--bottom {
-  font-size: 15px;
+  font-size: 20px;
   color: #6ac4e5;
 }
 
