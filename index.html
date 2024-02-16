@@ -48,31 +48,52 @@
             <li>Advertise</li>
           </ul>
           <ul>
-            <li>Newsletter</li>
-            <li>Blog</li>
-            <li>Doc&Support</li>
+            <li class="sidebar__list--info">Newsletter</li>
+            <li class="sidebar__list--info">Blog</li>
+            <li class="sidebar__list--info">Doc&Support</li>
           </ul>
         </div>
       </div>
       <main class="l-main">
-      <header class="l-header">
+        <header class="l-header">
         <!-- Write code for Header-->
-        <ul>
-          <div class="header__search">
-            <i class="fa fa-search header__logo"></i>
-            <li class="header__SearchCodePen">Search CodePen...</li>
-          </div>
-          <li class="header__SignUp">Sign Up</li>
-          <li class="header__LogIn">Log In</li>
-        </ul>
+        <div class="l-flex header__search">
+          <i class="fa fa-search"></i>
+          <input class="header__SearchCodePen", type="text", placeholder="Search CodePen...">
+        </div>
+        <div class="l-flex header__side">
+          <a class="header__SignUp">Sign Up</a>
+          <a class="header__LogIn">Log In</a>
+        </div>
       </header>
-      <div class="l-content">
-        <section class="l-section">
-          <div class="hero">
-             <!-- Write code for Hero-->
-          </div>
-      </div>
-        </section>
+        <div class="l-content">
+          <section class="l-section">
+            <div class="hero">
+              <!-- Write code for Hero-->
+              <div class="l-flex hero__body"> 
+                <div class="hero__left">
+                  <div class="hero__left--title">
+                    <i class="fa fa-cube hero__left--cube"></i>
+                    <h2 class="hero__left--title--setence">
+                      The best place
+                      to build,test,
+                      and discover
+                      front-end
+                      code.
+                    </h2>
+                  </div>
+                  <div class="hero__left--text">
+                    <p>CodePen is a social development environment for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration. </p>
+                  </div>
+                  <a class="header__SignUp">Sign Up for Free</a>
+                </div>
+                <div class="hero__right">
+                    <div class="square"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
         <section class="l-section">
           <div class="l-flex l-flex-wrap features">
              <!-- Write code for Features-->
