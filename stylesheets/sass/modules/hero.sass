@@ -1,24 +1,70 @@
 @use '../variable.sass' as v
 
-.hero__left
-    padding-left: 10px
-    padding-top: 30px
-    width:700px
 
-.hero__left--cube
-    font-size: 35px
+.hero-body
+    display: flex
+    flex: wrap
 
-.hero__left--title--setence
-    font-size: 40px
+.hero
+    margin-top:30px
+
+.hero-left
+    width: 50%
+    margin:16px
+    margin-left:30px
+
+.hero-right
+    width: 50%
+
+.hero-left-cube
+    margin-top: 30px
+    font-size:2.5rem 
+
+.hero-left-text
+    font-size: 1.1rem
+
+.hero-left-title-setence
+    font-size: 3rem
     font-weight: 900
+    margin: 0
 
-.hero__left--cube
-    padding-top: 20px
-    font-size: 2.5em !important
-
-.square
-    background: v.$light-Gray
+.hero-right-square
+    margin: 16px auto
+    background: linear-gradient(120deg , #4c4f5a , #202125)
     border: solid 1px v.$light-Gray
+    border-radius: 6px
+    width: 495px
+    height: 410px
+
+.hero-right-mini-square
+    background: #1d1e22
+    border-radius: 6px
+    width: 300px
+    height: 140px
+    margin-bottom: 8px
+
+.mini-square-html
+    position: relative
+    left:160px
+    bottom:20px
+
+.mini-square-css
+    position: relative
+    left:220px
+    bottom:20px
+
+.mini-square-js
+    position: relative
+    left:160px
+    bottom:20px
+
+.hero-left-SignUp
+    font-size: 1.4rem
+    min-width: 100px
+    padding:10px 10px
+    margin:10px
+    color: black
+    background: #47cf73
+    border: solid 1px #47cf37
     border-radius: 3px
-    width: 500px
-    height: 400px
+    text-align: center
