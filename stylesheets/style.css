@@ -48,6 +48,11 @@ a:hover {
   min-width: 188px;
 }
 
+.button:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
 .product-item-list-top {
   justify-content: center;
 }
@@ -406,6 +411,9 @@ a:hover {
 .sidebar-munu-text {
   margin: 0 auto 0 0;
   text-align: left;
+}
+.sidebar-munu-text:hover {
+  background: black;
 }
 
 .sidebar-list-top {
