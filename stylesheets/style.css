@@ -408,25 +408,34 @@ a:hover {
   font-weight: 800;
 }
 
-.sidebar-munu-text {
-  margin: 0 auto 0 0;
-  text-align: left;
+.sidebar-munu-text a {
+  display: block;
+  padding-left: 16px;
 }
-.sidebar-munu-text:hover {
+.sidebar-munu-text a:hover {
   background: black;
 }
 
+.sidebar-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
 .sidebar-list-top {
+  padding-left: 16px;
   font-size: 0.8rem;
   color: yellow;
 }
 
 .sidebar-list-mid {
+  padding-left: 16px;
   font-size: 0.8rem;
   color: #6ae5b6;
 }
 
 .sidebar-list-bottom {
+  padding-left: 16px;
   font-size: 0.8rem;
   color: #6ac4e5;
 }
