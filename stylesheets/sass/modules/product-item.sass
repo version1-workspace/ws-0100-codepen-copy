@@ -11,13 +11,18 @@
 
 .product-item-list-block
     margin: 20px 15px
-
-.product-item-list-square
     width: 360px
     height: 340px
-    padding: 30px
     background: #2c303a
-    border-radius: 6px
+
+.product-item-list-square
+    padding: 15px
+    &:hover
+        opacity: .4
+        cursor: pointer
+        transform: scale(1.1)
+
+
 
 
 .product-item-list-Insquare-title
@@ -35,3 +40,30 @@
     border: solid 3px #aaaebc
     border-radius: 3px
     text-align: center
+
+.img-button
+    img
+        width: 100%
+        object-fit: cover
+    
+.product-item-list-icon
+    margin: 0
+    padding: 0
+
+.product-item-list-Name
+    padding-left: 16px
+    padding-bottom: 30px
+
+
+.img-icon
+    img
+        width: 40px
+        height: 40px
+
+.product-item-list-footer-param
+    padding: 0.2rem
+    text-align: center
+    border-radius: 3px
+    border: solid 3px black
+    background: black
+    margin-left: 0.5rem
