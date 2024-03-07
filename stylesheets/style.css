@@ -22,7 +22,10 @@ li {
   text-align: left;
 }
 
-a:hover {
+a {
+  text-decoration: none;
+}
+a :hover {
   cursor: pointer;
 }
 
@@ -52,9 +55,110 @@ a:hover {
   margin: 30px 0px;
 }
 
+.CodePen-badge {
+  color: black;
+  background: yellow;
+  font-size: 10px;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+.sidebar-button {
+  margin: 0px 16px;
+  border: solid 3px transparent;
+  background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #4fcf70);
+  width: 154px;
+  padding: 0;
+}
+
+.sidebar-badge-text {
+  background: black;
+  padding: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+.button {
+  margin-left: 8px;
+}
 .button:hover {
   opacity: 0.4;
   cursor: pointer;
+}
+
+.header-button {
+  margin-left: 8px;
+  min-width: 100px;
+}
+.header-button:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.header-signup {
+  padding: 10px;
+  color: black;
+  background: #47cf73;
+  border: solid 1px #47cf37;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.header-login {
+  padding: 10px;
+  background: #444857;
+  border: solid 1px #444857;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.features-icon {
+  position: relative;
+  left: 16px;
+  top: 32px;
+}
+
+.features-icon-square {
+  width: 64px;
+  height: 64px;
+  background: black;
+  border-radius: 6px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.features-square {
+  width: 360px;
+  height: 340px;
+  padding: 30px;
+  background: #2c303a;
+  border-radius: 6px;
+}
+
+.features-insquare-title {
+  font-size: 1.5rem;
+}
+
+.features-insquare-text {
+  color: #b7bbc8;
+}
+
+.features-text-blue {
+  color: #12bcfe;
+}
+
+.features-insquare-button {
+  min-width: 100px;
+  padding: 10px 10px;
+  background: #444857;
+  border: solid 1px #444857;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.product-item-list-text {
+  color: #b7bbc8;
 }
 
 .product-item-list-top {
@@ -76,13 +180,18 @@ a:hover {
   background: #2c303a;
 }
 
-.product-item-list-square {
+.product-item-list-square-text {
   padding: 15px;
 }
+
+.product-item-list-square {
+  padding: 15px;
+  transition: 0.2s;
+}
 .product-item-list-square:hover {
+  transform: scale(1.05);
   opacity: 0.4;
   cursor: pointer;
-  transform: scale(1.1);
 }
 
 .product-item-list-Insquare-title {
@@ -213,51 +322,7 @@ a:hover {
 }
 
 .features-block {
-  margin: 20px 15px;
-}
-
-.features-icon {
-  position: relative;
-  left: 20px;
-  top: 30px;
-}
-
-.features-icon-square {
-  width: 64px;
-  height: 64px;
-  background: black;
-  border-radius: 6px;
-  font-size: 3rem;
-  text-align: center;
-}
-
-.features-square {
-  width: 360px;
-  height: 340px;
-  padding: 30px;
-  background: #2c303a;
-  border-radius: 6px;
-}
-
-.features-Insquare-title {
-  font-size: 1.5rem;
-}
-
-.features-Insquare-text {
-  color: #b7bbc8;
-}
-
-.text-blue {
-  color: #0bc0fd;
-}
-
-.features-Insquare-button {
-  min-width: 100px;
-  padding: 10px 10px;
-  background: #444857;
-  border: solid 1px #444857;
-  border-radius: 3px;
-  text-align: center;
+  margin: 2rem 1rem;
 }
 
 .footer {
@@ -304,8 +369,7 @@ a:hover {
 
 .hero-left {
   width: 50%;
-  margin: 16px;
-  margin-left: 30px;
+  padding: 32px;
 }
 
 .hero-right {
@@ -313,7 +377,6 @@ a:hover {
 }
 
 .hero-left-cube {
-  margin-top: 30px;
   font-size: 2.5rem;
 }
 
@@ -389,28 +452,7 @@ a:hover {
   padding-left: 1rem;
 }
 
-.header-SignUp {
-  min-width: 100px;
-  padding: 10px 10px;
-  margin: 10px;
-  color: black;
-  background: #47cf73;
-  border: solid 1px #47cf37;
-  border-radius: 3px;
-  text-align: center;
-}
-
-.header-LogIn {
-  min-width: 100px;
-  padding: 10px 10px;
-  margin: 10px;
-  background: #444857;
-  border: solid 1px #444857;
-  border-radius: 3px;
-  text-align: center;
-}
-
-.sidebar-badge {
+.sidebar-badge-subtext {
   margin: 0;
   font-size: 0.8rem;
   text-align: center;
@@ -418,31 +460,12 @@ a:hover {
 }
 
 .sidebar-logo {
-  font-size: 2rem;
   text-align: center;
   font-weight: 700;
 }
 
-.sidebar-button {
-  text-align: center;
-  margin: 0px 20px;
-  padding: 10px 0px;
-  border: solid 3px;
-  background: black;
-  border-image: linear-gradient(to right, #49ED49, #e1fd0b, #fd0be1, #0bc0fd, #49ED49) 1;
-}
-
 .sidebar {
   background: #1F1F26;
-}
-
-.CodePen-badge {
-  font-size: 0.8rem;
-  color: black;
-  background: yellow;
-  border: solid 1px yellow;
-  border-radius: 3px;
-  font-weight: 800;
 }
 
 .sidebar-munu-text a {
