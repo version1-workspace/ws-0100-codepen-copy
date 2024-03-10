@@ -1,10 +1,13 @@
 @use '../variable.sass' as v
+@use '../mixin.sass' as m
+
 
 .sidebar
     background: v.$sidebar-color
+    @include m.sm-max
+        display: none
 
-
-.sidebar-munu-text
+.sidebar-munu
     a
         display: block
         padding-left: 16px
@@ -17,28 +20,9 @@
     padding-left: 0
     list-style-type: none
 
-.sidebar-list-top
+.sidebar-list-sub-title
     padding-left: 16px
     padding-bottom: 0.2rem
     font-size: v.$sidebar-font-size
-    color: yellow
 
-.sidebar-list-mid
-    padding-left: 16px
-    padding-bottom: 0.2rem
-    font-size: v.$sidebar-font-size
-    color:  #6ae5b6
 
-.sidebar-list-bottom
-    padding-left: 16px
-    padding-bottom: 0.2rem
-    font-size: v.$sidebar-font-size
-    color:  #6ac4e5
-
-.sidebar-list-info
-    margin-left: 0
-    padding-left: 0
-    list-style-type: none
-
-.sidebar-list-info-color
-    color: #b7bbc8

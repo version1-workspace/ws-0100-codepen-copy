@@ -1,7 +1,17 @@
-@use '../variable.sass' as v
+@use "variable" as v
 
+@mixin sm_max
+    @media (max-width: #{v.$screen-sm-min})
+       @content 
 
-@media screen(max-width:480px) {
-    .sidebar
-        display: none
-}
+@mixin md_max
+    @media (max-width: v.$screen-md-min) 
+       @content 
+
+@mixin lg_max
+    @media (max-width: v.$screen-lg-min) 
+       @content 
+
+@mixin xl_max
+    @media (max-width: v.$screen-xl-min) 
+       @content 

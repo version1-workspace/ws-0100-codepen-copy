@@ -1,29 +1,52 @@
 @use '../variable.sass' as v
 
 .button
-    margin-left: 8px
+    text-align: center
     &:hover
         opacity: .4
         cursor: pointer
+
+
+.coding-button
+    margin: 0px 16px
+    border: 3px solid  transparent
+    background-image: linear-gradient(115deg, v.$light-Green ,v.$light-Yellow,v.$light-purple,v.$light-Blue,v.$light-Green )  
+    width:154px
+    padding: 0
+
+.coding-logo-sub-text       
+    margin:0.2rem
+    font-size: 0.8rem
+    text-align: center
+    color: #b7bbc8
+
+.coding-button-text
+    background: black
+    padding: 8px
+    text-align: center
+    width:100%
+
 
 .header-button
-    margin-left: 8px
-    min-width:100px
-    &:hover
-        opacity: .4
-        cursor: pointer
+    padding: 8px
+    .button
+        margin-left: 8px
+        min-width:100px
+        padding:10px
 
-.header-signup
-    padding:10px
+.signup-button
+    color: black
+    background: #47cf73
+    border: solid 1px #47cf37
+
+.login-button
+    background: #444857
+    border: solid 1px #444857
+    border-radius: 3px
+
+.register-button
+    font-size: 1.4rem
     color: black
     background: #47cf73
     border: solid 1px #47cf37
     border-radius: 3px
-    text-align: center
-
-.header-login
-    padding:10px
-    background: #444857
-    border: solid 1px #444857
-    border-radius: 3px
-    text-align: center

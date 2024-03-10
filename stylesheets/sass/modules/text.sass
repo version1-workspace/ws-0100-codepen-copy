@@ -1,0 +1,32 @@
+@use '../variable.sass' as v
+@use '../mixin.sass' as m
+
+.yellow-text
+    color: yellow
+
+.green-text
+    color:  #6ae5b6
+
+.blue-text
+    color:  #6ac4e5
+
+.gray-text
+    color: #b7bbc8
+
+.title
+    width: 50%
+    padding:32px
+    @include m.sm-max
+        width: 100%
+    .button
+        margin-left: 8px
+        min-width:100px
+        padding:10px
+
+.subtitle-text
+    font-size: 1.1rem
+
+.title-text
+    font-size: 3rem
+    font-weight: 900
+    margin: 0

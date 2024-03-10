@@ -1,32 +1,21 @@
 @use '../variable.sass' as v
+@use '../mixin.sass' as m
 
 
 .hero-body
     display: flex
-    flex: wrap
+    flex-wrap: wrap
 
 .hero
-    margin-top:30px
+    margin:32px
 
-.hero-left
+.code-cards
     width: 50%
-    padding:32px
+    @include m.sm-max
+        width: 100%
 
-.hero-right
-    width: 50%
 
-.hero-left-cube
-    font-size:2.5rem 
-
-.hero-left-text
-    font-size: 1.1rem
-
-.hero-left-title-setence
-    font-size: 3rem
-    font-weight: 900
-    margin: 0
-
-.hero-right-square
+.code-card-large-square
     margin: 16px auto
     background: linear-gradient(120deg , #4c4f5a , #202125)
     border: solid 1px v.$light-Gray
@@ -34,7 +23,7 @@
     width: 495px
     height: 410px
 
-.hero-right-mini-square
+.code-card-square
     background: #1d1e22
     border-radius: 6px
     width: 300px
@@ -55,13 +44,3 @@
     position: relative
     left:160px
     bottom:20px
-
-.hero-left-SignUp
-    font-size: 1.4rem
-    min-width: 100px
-    padding:10px 10px
-    color: black
-    background: #47cf73
-    border: solid 1px #47cf37
-    border-radius: 3px
-    text-align: center
