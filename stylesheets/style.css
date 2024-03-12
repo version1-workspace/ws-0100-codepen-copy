@@ -54,7 +54,7 @@ a :hover {
   margin: 30px 0px;
 }
 
-.CodePen-badge {
+.codepen-badge {
   color: black;
   background: yellow;
   font-size: 10px;
@@ -93,15 +93,6 @@ a :hover {
   width: 100%;
 }
 
-.header-button {
-  padding: 8px;
-}
-.header-button .button {
-  margin-left: 8px;
-  min-width: 100px;
-  padding: 10px;
-}
-
 .signup-button {
   color: black;
   background: #47cf73;
@@ -122,13 +113,13 @@ a :hover {
   border-radius: 3px;
 }
 
-.features-icon {
+.card-icon {
   position: relative;
   left: 16px;
   top: 32px;
 }
 
-.features-icon-square {
+.card-icon-square {
   width: 64px;
   height: 64px;
   background: black;
@@ -137,7 +128,7 @@ a :hover {
   text-align: center;
 }
 
-.features-square {
+.card-square {
   width: 360px;
   height: 340px;
   padding: 30px;
@@ -145,19 +136,19 @@ a :hover {
   border-radius: 6px;
 }
 
-.features-insquare-title {
+.card-title {
   font-size: 1.5rem;
 }
 
-.features-insquare-text {
+.card-text {
   color: #b7bbc8;
 }
 
-.features-text-blue {
+.card-text-blue {
   color: #12bcfe;
 }
 
-.features-insquare-button {
+.card-button {
   min-width: 100px;
   padding: 10px 10px;
   background: #444857;
@@ -170,15 +161,7 @@ a :hover {
   color: #b7bbc8;
 }
 
-.product-item-list-top {
-  justify-content: center;
-}
-
-.product-item-list-mid {
-  justify-content: center;
-}
-
-.product-item-list-bottom {
+.product-item-list-row {
   justify-content: center;
 }
 
@@ -193,6 +176,10 @@ a :hover {
   padding: 15px;
 }
 
+.product-item-list-footer {
+  margin-top: 30px;
+}
+
 .product-item-list-square {
   padding: 15px;
   transition: 0.2s;
@@ -203,24 +190,14 @@ a :hover {
   cursor: pointer;
 }
 
-.product-item-list-Insquare-title {
-  font-size: 1.1rem;
-  font-weight: 900;
-}
-
-.product-item-list-Insquare-text {
-  color: #b7bbc8;
-}
-
 .item-list-footer {
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .item-list-footer-text {
   padding: 10px 20px;
   border: solid 3px #aaaebc;
   border-radius: 3px;
-  text-align: center;
 }
 
 .img-button img {
@@ -228,19 +205,18 @@ a :hover {
   object-fit: cover;
 }
 
+.img-icon img {
+  width: 40px;
+  height: 40px;
+}
+
 .product-item-list-icon {
-  margin: 0;
+  margin: 20px 0px;
   padding: 0;
 }
 
 .product-item-list-Name {
   padding-left: 16px;
-  padding-bottom: 30px;
-}
-
-.img-icon img {
-  width: 40px;
-  height: 40px;
 }
 
 .product-item-list-footer-param {
@@ -252,11 +228,15 @@ a :hover {
   margin-left: 0.5rem;
 }
 
-.hero-right-header {
+.code-card-header {
   justify-content: space-between;
 }
 
-.hero-right-title {
+.code-card-title {
+  padding: 4px 8px;
+}
+
+.code-card-title-text {
   font-weight: 700;
   margin: 0;
   padding-left: 10px;
@@ -266,64 +246,20 @@ a :hover {
   text-align: right;
 }
 
-.hero-right-text {
-  margin-left: 5px;
-}
-
-.hero-right-text-css {
-  margin: 0;
+.code-text {
   font-size: 13px;
+  padding-left: 10px;
 }
-
-.text-css-2nd-Line {
-  margin-left: 2rem;
-}
-
-.text-css-3to5nd-Line {
-  margin-left: 4rem;
-}
-
-.hero-right-text-js {
+.code-text p {
   margin: 0;
-  font-size: 13px;
 }
 
-.text-blink {
-  animation: blink 1s infinite;
+.indent-2rem {
+  margin-left: 2rem !important;
 }
 
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.text-orange {
-  color: #a88038;
-}
-
-.text-yellow {
-  color: #e1ca72;
-}
-
-.text-green {
-  color: #74b087;
-}
-
-.text-purple {
-  color: #9f8198;
-}
-
-.text-blue {
-  color: #7a99ad;
+.indent-4rem {
+  margin-left: 4rem !important;
 }
 
 .features {
@@ -337,18 +273,19 @@ a :hover {
 .footer {
   background: black;
   justify-content: space-between;
-  margin-top: 40px;
+  padding: 40px;
 }
 
-.footer-left {
-  margin: 30px;
-}
-
-.footer-right {
-  margin: 30px;
+.footer-copyright .codepen-logo {
+  font-size: 2rem;
+  margin: 10px;
 }
 
 .footer-list {
+  margin: 10px;
+}
+
+.footer-munu {
   margin: 10px;
 }
 
@@ -359,12 +296,6 @@ a :hover {
 .footer-list-text {
   margin-left: 20px;
   color: #aaaebc;
-}
-
-.footer-logo {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 500;
 }
 
 .hero-body {
@@ -418,6 +349,15 @@ a :hover {
   position: relative;
   left: 160px;
   bottom: 20px;
+}
+
+.header-button {
+  padding: 8px;
+}
+.header-button .button {
+  margin-left: 8px;
+  min-width: 100px;
+  padding: 10px;
 }
 
 .codepen-logo {
@@ -481,16 +421,44 @@ a :hover {
   color: yellow;
 }
 
-.green-text {
+.light-green-text {
   color: #6ae5b6;
 }
 
 .blue-text {
-  color: #6ac4e5;
+  color: #12bcfe;
 }
 
 .gray-text {
   color: #b7bbc8;
+}
+
+.bold-text {
+  font-weight: 900;
+}
+
+.light-bold-text {
+  font-weight: 700;
+}
+
+.light-orange-text {
+  color: #a88038;
+}
+
+.light-yellow-text {
+  color: #e1ca72;
+}
+
+.text-green {
+  color: #74b087;
+}
+
+.light-purpule-text {
+  color: #9f8198;
+}
+
+.light-blue-text {
+  color: #7a99ad;
 }
 
 .title {
@@ -516,6 +484,25 @@ a :hover {
   font-size: 3rem;
   font-weight: 900;
   margin: 0;
+}
+
+.blink-text {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

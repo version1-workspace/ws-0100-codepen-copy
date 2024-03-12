@@ -4,14 +4,35 @@
 .yellow-text
     color: yellow
 
-.green-text
+.light-green-text
     color:  #6ae5b6
 
 .blue-text
-    color:  #6ac4e5
+    color:  v.$light-Blue
 
 .gray-text
     color: #b7bbc8
+
+.bold-text
+    font-weight: 900
+
+.light-bold-text
+    font-weight: 700
+
+.light-orange-text
+    color:#a88038
+
+.light-yellow-text
+    color:#e1ca72
+
+.text-green
+    color:#74b087
+
+.light-purpule-text
+    color:#9f8198
+
+.light-blue-text
+    color:#7a99ad
 
 .title
     width: 50%
@@ -30,3 +51,15 @@
     font-size: 3rem
     font-weight: 900
     margin: 0
+
+.blink-text
+    animation: blink 1s infinite
+@keyframes blink
+    0%
+        opacity:  0
+    50%
+         opacity: 0
+    50%
+        opacity:  1
+    100%
+         opacity: 1
