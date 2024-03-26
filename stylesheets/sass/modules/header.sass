@@ -1,0 +1,51 @@
+@use "../variable" as v
+
+.search-container
+  padding: 8px
+  margin: 8px
+  background-color: #252830
+  border-radius: 4px
+  // width: 100%
+
+.search-icon::before
+  font-family: FontAwesome
+  content: "\f002"
+
+.search-icon
+  font-size: 20px
+  display: inline-block
+
+.search-input
+  border: 0
+  //width: 100%
+  background-color: #252830
+  margin-left: 16px
+  font-size: 20px
+  font-weight: bold
+
+.header-buttons
+  padding: 8px
+  .button
+    margin-right: 8px
+    min-width: 100px
+
+
+.button
+  display: inline-block
+  border-radius: 4px
+  padding: 8px 16px
+  text-align: center
+  
+  &:hover
+    opacity: .5
+
+.button-primary
+  border: none
+  background-color: #47cf73
+  color: black
+  
+
+.button-secondary
+  border: none
+  background-color: #444857
+  
