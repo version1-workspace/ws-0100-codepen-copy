@@ -1,0 +1,51 @@
+@use "../variable" as v
+
+.code-card
+  margin-bottom: 8px
+  background-color: #1d1e22
+  border-radius: 6px
+  width: 300px
+  height: 140px
+  font-size: 13px
+
+.code-card-title
+  aligin-items: center
+
+.code-card-title-text
+  margin: 0
+  margin-left: 8px
+
+.code-card-body
+  padding: 8px
+  padding-top: 0
+
+.code-card-body p
+  margin: 0
+
+.code-card-html
+  position: relative
+  left: 120px
+  bottom: 20px
+  @media screen and (min-width: v.$screen-sm-min)
+    left: 160px
+
+.code-card-scss
+  position: relative
+  left: 160px
+  bottom: 20px
+  @media screen and (min-width: v.$screen-sm-min)
+    left: 220px
+
+.code-card-js
+  position: relative
+  left: 120px
+  bottom: 20px
+  @media screen and (min-width: v.$screen-sm-min)
+    left: 160px
+
+.code-card-header
+  padding: 4px 8px
+  justify-content: space-between
+
+.code-card-header .fa::before
+  color: #b7bbc8
