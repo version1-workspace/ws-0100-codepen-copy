@@ -1,19 +1,46 @@
 
 // Colors:
 
-$background-color: #131417
-// declare your variables for color
+$bg-color: #131417
 
+$bg-color-gray: #444857
+$bg-color-lightblack: #2c303a
+$bg-code-card-color: #1d1e22
+$bg-search-color: #252830
+$bg-sidebar-color: #1f1f26
+
+$button-border-color: #aaaebc
+$color-button-gradient-green: #4fcf70
+$color-button-gradient-yellow: #fad648
+$color-button-gradient-purple: #a767e5
+$color-button-gradient-blue: #12bcfe
+$color-button-gradient-lightgreen: #44ce7b
+
+$color-card-gradient-gray: #4c4f5a
+$color-card-gradient-black: #202125
+
+$color-product-item: #2c303a
+
+$color-orange: #a88038
+$color-beige: #e1ca72
+$color-green: #47cf73
+$color-lightgreen: #74b087
+$color-purple: #9f8198
+$color-blue: #7a99ad
+$color-skyblue: #0ebeff
+$color-gray: #b7bbc8
+$color-yellow: #ffdd40
+
+// declare your variables for color
 
 // Break Points:
 
-$screen-sm-min: 576px
+$breakpoints: ("sm": 576px, "md": 768px, "lg": 1080px, "xl": 1200px, "xll": 1300px,) !default
 
-// Small tablets (portrait view)
-$screen-md-min: 768px
+=min($breakpoint)
+  @media (width >= #{map-get($breakpoints, $breakpoint)})
+    @content
 
-// Tablets and small desktops
-$screen-lg-min: 992px
-
-// Large tablets and desktops
-$screen-xl-min: 1200px
+=max($breakpoint)
+  @media (width <= #{map-get($breakpoints, $breakpoint)})
+    @content

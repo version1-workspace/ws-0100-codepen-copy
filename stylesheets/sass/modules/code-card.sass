@@ -2,7 +2,7 @@
 
 .code-card
   margin-bottom: 8px
-  background-color: #1d1e22
+  background-color: v.$bg-code-card-color
   border-radius: 6px
   width: 300px
   height: 140px
@@ -26,21 +26,21 @@
   position: relative
   left: 120px
   bottom: 20px
-  @media screen and (min-width: v.$screen-sm-min)
+  +v.min(sm)
     left: 160px
 
 .code-card-scss
   position: relative
   left: 160px
   bottom: 20px
-  @media screen and (min-width: v.$screen-sm-min)
+  +v.min(sm)
     left: 220px
 
 .code-card-js
   position: relative
   left: 120px
   bottom: 20px
-  @media screen and (min-width: v.$screen-sm-min)
+  +v.min(sm)
     left: 160px
 
 .code-card-header
@@ -48,4 +48,32 @@
   justify-content: space-between
 
 .code-card-header .fa::before
-  color: #b7bbc8
+  color: v.$color-gray
+
+.hilight-orange
+  color: v.$color-orange
+
+.hilight-beige
+  color: v.$color-beige
+
+.hilight-green
+  color: v.$color-lightgreen
+
+.hilight-purple
+  color: v.$color-purple
+
+.hilight-blue
+  color: v.$color-blue
+
+.cursor
+  animation: blink 1s infinite
+
+@keyframes blink
+  0%
+    opacity: 0
+  50%
+    opacity: 0
+  51%
+    opacity: 1
+  100%
+    opacity: 1

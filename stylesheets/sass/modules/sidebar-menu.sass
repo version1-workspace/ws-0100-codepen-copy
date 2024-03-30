@@ -1,15 +1,16 @@
 @use "../variable" as v
 
 .sidebar
-  background-color: #1f1f26
-  @media screen and (max-width: v.$screen-sm-min)
+  background-color: v.$bg-sidebar-color
+  +v.max(sm)
     display: none
+
 
 .get-start-text
   margin: 0.2em
   font-size: 0.8em
   text-align: center
-  color: #b7bbc8
+  color: v.$color-gray
 
 .button-logo-text
   display: block

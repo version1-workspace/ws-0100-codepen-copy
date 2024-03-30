@@ -10,7 +10,7 @@
 .hero-body-description
   width: 100%
   padding: 32px
-  @media screen and (min-width: v.$screen-sm-min)
+  +v.min(sm)
     width: 50%
 
 .hero-body-description-content
@@ -33,37 +33,6 @@
 
 .hero-body-image
   width: 100%
-  @media screen and (min-width: v.$screen-sm-min)
+  +v.min(sm)
     width: 50%
 
-.fa
-  display: inline-block
-  font-size: inherit
-
-.hilight-orange
-  color: #a88038
-
-.hilight-beige
-  color: #e1ca72
-
-.hilight-green
-  color: #74b087
-
-.hilight-purple
-  color: #9f8198
-
-.hilight-blue
-  color: #7a99ad
-
-.cursor
-  animation: blink 1s infinite
-
-@keyframes blink
-  0%
-    opacity: 0
-  50%
-    opacity: 0
-  51%
-    opacity: 1
-  100%
-    opacity: 1
