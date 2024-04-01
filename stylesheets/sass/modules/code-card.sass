@@ -1,4 +1,5 @@
 @use "../variable" as v
+@use "../mixin.sass" as m
 
 .code-card
   margin-bottom: 8px
@@ -26,21 +27,21 @@
   position: relative
   left: 120px
   bottom: 20px
-  +v.min(sm)
+  +m.min(sm)
     left: 160px
 
 .code-card-scss
   position: relative
   left: 160px
   bottom: 20px
-  +v.min(sm)
+  +m.min(sm)
     left: 220px
 
 .code-card-js
   position: relative
   left: 120px
   bottom: 20px
-  +v.min(sm)
+  +m.min(sm)
     left: 160px
 
 .code-card-header
@@ -48,22 +49,22 @@
   justify-content: space-between
 
 .code-card-header .fa::before
-  color: v.$color-gray
+  color: v.$color-gray-primary
 
 .hilight-orange
-  color: v.$color-orange
+  color: v.$color-orange-hilight
 
 .hilight-beige
-  color: v.$color-beige
+  color: v.$color-beige-hilight
 
 .hilight-green
-  color: v.$color-lightgreen
+  color: v.$color-green-hilight
 
 .hilight-purple
-  color: v.$color-purple
+  color: v.$color-purple-hilight
 
 .hilight-blue
-  color: v.$color-blue
+  color: v.$color-blue-hilight
 
 .cursor
   animation: blink 1s infinite

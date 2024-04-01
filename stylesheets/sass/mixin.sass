@@ -1,0 +1,13 @@
+// Break Points:
+
+$breakpoints: ("sm": 576px, "md": 768px, "lg": 1080px, "xl": 1200px, "xll": 1300px,) !default
+
+// mixin
+
+=min($breakpoint)
+  @media (width >= #{map-get($breakpoints, $breakpoint)})
+    @content
+
+=max($breakpoint)
+  @media (width <= #{map-get($breakpoints, $breakpoint)})
+    @content

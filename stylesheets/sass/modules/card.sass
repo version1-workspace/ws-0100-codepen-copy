@@ -1,4 +1,5 @@
 @use "../variable" as v
+@use "../mixin.sass" as m
 
 .hero-body-image-card
   margin: 16px auto
@@ -6,7 +7,7 @@
   width: 100%
   height: 410px
   background: linear-gradient(109.61deg, v.$color-card-gradient-gray 4.26%, v.$color-card-gradient-black 84.84%)
-  +v.min(sm)
+  +m.min(sm)
     width: 495px
 
 .card
@@ -16,7 +17,7 @@
   background-color: v.$bg-color-lightblack
 
 .card-description
-  color: v.$color-gray
+  color: v.$color-gray-primary
 
 .card-footer
   margin: 16px 0

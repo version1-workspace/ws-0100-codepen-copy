@@ -1,4 +1,5 @@
 @use "../variable" as v
+@use "../mixin.sass" as m
 
 .hero
   margin: 32px
@@ -10,7 +11,7 @@
 .hero-body-description
   width: 100%
   padding: 32px
-  +v.min(sm)
+  +m.min(sm)
     width: 50%
 
 .hero-body-description-content
@@ -33,6 +34,6 @@
 
 .hero-body-image
   width: 100%
-  +v.min(sm)
+  +m.min(sm)
     width: 50%
 

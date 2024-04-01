@@ -1,8 +1,9 @@
 @use "../variable" as v
+@use "../mixin.sass" as m
 
 .sidebar
   background-color: v.$bg-sidebar-color
-  +v.max(sm)
+  +m.max(sm)
     display: none
 
 
@@ -10,7 +11,7 @@
   margin: 0.2em
   font-size: 0.8em
   text-align: center
-  color: v.$color-gray
+  color: v.$color-gray-primary
 
 .button-logo-text
   display: block
